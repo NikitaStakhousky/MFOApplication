@@ -2,7 +2,7 @@
 //  ContentView.swift
 //  CreditCenter
 //
-//  Created by Maksim Chizhavko on 11.05.23.
+//  Created by Nikita Stakhousky on 11.05.23.
 //
 
 import SwiftUI

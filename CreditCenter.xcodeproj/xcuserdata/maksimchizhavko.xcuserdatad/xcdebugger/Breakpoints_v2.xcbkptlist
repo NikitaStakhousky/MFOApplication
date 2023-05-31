@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "E702B4DA-F0E1-486A-9289-C116DB8ABBFB"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "58ADEF19-CCF6-4516-820F-D0DBD42181AE"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "CreditCenter/Features/CreditWebView/CreditCenterWebView.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "body"
+            landmarkType = "24">
+            <Locations>
+               <Location
+                  uuid = "58ADEF19-CCF6-4516-820F-D0DBD42181AE - b397690a4418721a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in CreditCenter.CreditCenterWebView.body.getter : some"
+                  moduleName = "CreditCenter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimchizhavko/Desktop/CreditCenter/CreditCenter/Features/CreditWebView/CreditCenterWebView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "1574">
+               </Location>
+               <Location
+                  uuid = "58ADEF19-CCF6-4516-820F-D0DBD42181AE - 59033dc9f81abce8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #2 () -&gt; &lt;&lt;opaque return type of static SwiftUI.ToolbarContentBuilder.buildBlock&lt;&#x3c4;_0_0 where &#x3c4;_0_0: SwiftUI.ToolbarContent&gt;(&#x3c4;_0_0) -&gt; some&gt;&gt;.0 in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in CreditCenter.CreditCenterWebView.body.getter : some"
+                  moduleName = "CreditCenter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimchizhavko/Desktop/CreditCenter/CreditCenter/Features/CreditWebView/CreditCenterWebView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "40"
+                  endingLineNumber = "40"
+                  offsetFromSymbolStart = "275">
+               </Location>
+               <Location
+                  uuid = "58ADEF19-CCF6-4516-820F-D0DBD42181AE - 58d5fcc8461f3808"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #3 () -&gt; () in closure #1 () -&gt; &lt;&lt;opaque return type of SwiftUI.View.onAppear(perform: Swift.Optional&lt;() -&gt; ()&gt;) -&gt; some&gt;&gt;.0 in CreditCenter.CreditCenterWebView.body.getter : some"
+                  moduleName = "CreditCenter"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/maksimchizhavko/Desktop/CreditCenter/CreditCenter/Features/CreditWebView/CreditCenterWebView.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "19">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

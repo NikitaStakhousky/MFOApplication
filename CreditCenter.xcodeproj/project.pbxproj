@@ -7,36 +7,201 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7EF76FA82A260FB3004E0D4E /* WebControlView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76FA72A260FB3004E0D4E /* WebControlView.swift */; };
+		7EF76FAB2A2612E1004E0D4E /* TapButtonView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76FAA2A2612E1004E0D4E /* TapButtonView.swift */; };
+		7EF76FAE2A279E45004E0D4E /* PopupForSubscribeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EF76FAD2A279E45004E0D4E /* PopupForSubscribeView.swift */; };
+		7EF76FB32A27A50B004E0D4E /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 7EF76FB22A27A50B004E0D4E /* PopupView */; };
+		FC36BF232A12270C0068A650 /* LoadView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC36BF222A12270C0068A650 /* LoadView.swift */; };
+		FC36BF2A2A12415C0068A650 /* CreditCenterWebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC36BF292A12415C0068A650 /* CreditCenterWebView.swift */; };
+		FC647C952A1386BB00E96FC2 /* TrackerConfigurableProtocol.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC647C942A1386BB00E96FC2 /* TrackerConfigurableProtocol.swift */; };
+		FC647C972A13878700E96FC2 /* TrackerAggregatorRule.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC647C962A13878700E96FC2 /* TrackerAggregatorRule.swift */; };
+		FC647C992A1388F500E96FC2 /* Extension+TrackerAggregator.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC647C982A1388F500E96FC2 /* Extension+TrackerAggregator.swift */; };
+		FC647C9B2A138AF000E96FC2 /* GlobalTracker.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC647C9A2A138AF000E96FC2 /* GlobalTracker.swift */; };
+		FC647CA22A13AB0100E96FC2 /* NewLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC647CA12A13AB0100E96FC2 /* NewLoanView.swift */; };
+		FC68CCA22A161B8F0050DC19 /* NetworkService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68CCA12A161B8F0050DC19 /* NetworkService.swift */; };
+		FC68CCA42A16525B0050DC19 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC68CCA32A16525A0050DC19 /* AuthViewModel.swift */; };
+		FCBB710B2A1278F400304921 /* WebViewViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB710A2A1278F400304921 /* WebViewViewModel.swift */; };
+		FCBB710D2A1279B200304921 /* WebViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB710C2A1279B200304921 /* WebViewContainer.swift */; };
+		FCBB710F2A127B6200304921 /* WebViewContainer+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCBB710E2A127B6200304921 /* WebViewContainer+Init.swift */; };
+		FCE352092A1CB2B000D2C3E5 /* AppsFlyerLib in Frameworks */ = {isa = PBXBuildFile; productRef = FCE352082A1CB2B000D2C3E5 /* AppsFlyerLib */; };
+		FCE3520C2A1CC2D500D2C3E5 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = FCE3520B2A1CC2D500D2C3E5 /* OneSignal */; };
+		FCE352142A1CC48300D2C3E5 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE352132A1CC48300D2C3E5 /* NotificationService.swift */; };
+		FCE352182A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = FCE352112A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		FCE3521F2A1CCE8400D2C3E5 /* OneSignal in Frameworks */ = {isa = PBXBuildFile; productRef = FCE3521E2A1CCE8400D2C3E5 /* OneSignal */; };
 		FCE8D8FB2A0D14D00085D4BD /* CreditCenterApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D8FA2A0D14D00085D4BD /* CreditCenterApp.swift */; };
 		FCE8D8FD2A0D14D00085D4BD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D8FC2A0D14D00085D4BD /* ContentView.swift */; };
 		FCE8D8FF2A0D14D30085D4BD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE8D8FE2A0D14D30085D4BD /* Assets.xcassets */; };
 		FCE8D9022A0D14D30085D4BD /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FCE8D9012A0D14D30085D4BD /* Preview Assets.xcassets */; };
+		FCE8D90D2A0D169C0085D4BD /* DescriptionStep.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D90C2A0D169C0085D4BD /* DescriptionStep.swift */; };
+		FCE8D90F2A0D1BCA0085D4BD /* OnboardingViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D90E2A0D1BCA0085D4BD /* OnboardingViewModel.swift */; };
+		FCE8D9112A0D1CF30085D4BD /* OnboardingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D9102A0D1CF30085D4BD /* OnboardingView.swift */; };
+		FCE8D9132A0D27EE0085D4BD /* Colors+Init.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D9122A0D27EE0085D4BD /* Colors+Init.swift */; };
+		FCE8D91A2A0E3E780085D4BD /* FirstLoanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D9192A0E3E780085D4BD /* FirstLoanView.swift */; };
+		FCE8D91E2A0E4B360085D4BD /* AuthenticationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D91D2A0E4B350085D4BD /* AuthenticationView.swift */; };
+		FCE8D9212A0E56920085D4BD /* TextFieldsModifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D9202A0E56920085D4BD /* TextFieldsModifier.swift */; };
+		FCE8D9242A0E71E40085D4BD /* AuthorizationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D9232A0E71E40085D4BD /* AuthorizationView.swift */; };
+		FCE8D9292A0E79B20085D4BD /* View+init.swift in Sources */ = {isa = PBXBuildFile; fileRef = FCE8D9282A0E79B20085D4BD /* View+init.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		FCE352162A1CC48300D2C3E5 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FCE8D8EF2A0D14D00085D4BD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FCE352102A1CC48300D2C3E5;
+			remoteInfo = CreditCenterNotificationServiseExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		FCE3521C2A1CC48300D2C3E5 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				FCE352182A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		7EF76FA72A260FB3004E0D4E /* WebControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebControlView.swift; sourceTree = "<group>"; };
+		7EF76FAA2A2612E1004E0D4E /* TapButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonView.swift; sourceTree = "<group>"; };
+		7EF76FAD2A279E45004E0D4E /* PopupForSubscribeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupForSubscribeView.swift; sourceTree = "<group>"; };
+		FC36BF222A12270C0068A650 /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
+		FC36BF292A12415C0068A650 /* CreditCenterWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCenterWebView.swift; sourceTree = "<group>"; };
+		FC647C942A1386BB00E96FC2 /* TrackerConfigurableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConfigurableProtocol.swift; sourceTree = "<group>"; };
+		FC647C962A13878700E96FC2 /* TrackerAggregatorRule.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerAggregatorRule.swift; sourceTree = "<group>"; };
+		FC647C982A1388F500E96FC2 /* Extension+TrackerAggregator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Extension+TrackerAggregator.swift"; sourceTree = "<group>"; };
+		FC647C9A2A138AF000E96FC2 /* GlobalTracker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalTracker.swift; sourceTree = "<group>"; };
+		FC647CA12A13AB0100E96FC2 /* NewLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewLoanView.swift; sourceTree = "<group>"; };
+		FC68CCA12A161B8F0050DC19 /* NetworkService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkService.swift; sourceTree = "<group>"; };
+		FC68CCA32A16525A0050DC19 /* AuthViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		FCBB710A2A1278F400304921 /* WebViewViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewViewModel.swift; sourceTree = "<group>"; };
+		FCBB710C2A1279B200304921 /* WebViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewContainer.swift; sourceTree = "<group>"; };
+		FCBB710E2A127B6200304921 /* WebViewContainer+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "WebViewContainer+Init.swift"; sourceTree = "<group>"; };
+		FCE352112A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = CreditCenterNotificationServiseExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		FCE352132A1CC48300D2C3E5 /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
+		FCE352152A1CC48300D2C3E5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FCE8D8F72A0D14D00085D4BD /* CreditCenter.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CreditCenter.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FCE8D8FA2A0D14D00085D4BD /* CreditCenterApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCenterApp.swift; sourceTree = "<group>"; };
 		FCE8D8FC2A0D14D00085D4BD /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FCE8D8FE2A0D14D30085D4BD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FCE8D9012A0D14D30085D4BD /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		FCE8D90C2A0D169C0085D4BD /* DescriptionStep.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DescriptionStep.swift; sourceTree = "<group>"; };
+		FCE8D90E2A0D1BCA0085D4BD /* OnboardingViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingViewModel.swift; sourceTree = "<group>"; };
+		FCE8D9102A0D1CF30085D4BD /* OnboardingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OnboardingView.swift; sourceTree = "<group>"; };
+		FCE8D9122A0D27EE0085D4BD /* Colors+Init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Colors+Init.swift"; sourceTree = "<group>"; };
+		FCE8D9172A0D3FF80085D4BD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FCE8D9192A0E3E780085D4BD /* FirstLoanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstLoanView.swift; sourceTree = "<group>"; };
+		FCE8D91D2A0E4B350085D4BD /* AuthenticationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationView.swift; sourceTree = "<group>"; };
+		FCE8D9202A0E56920085D4BD /* TextFieldsModifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextFieldsModifier.swift; sourceTree = "<group>"; };
+		FCE8D9232A0E71E40085D4BD /* AuthorizationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthorizationView.swift; sourceTree = "<group>"; };
+		FCE8D9282A0E79B20085D4BD /* View+init.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "View+init.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		FCE3520E2A1CC48300D2C3E5 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE3521F2A1CCE8400D2C3E5 /* OneSignal in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCE8D8F42A0D14D00085D4BD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7EF76FB32A27A50B004E0D4E /* PopupView in Frameworks */,
+				FCE352092A1CB2B000D2C3E5 /* AppsFlyerLib in Frameworks */,
+				FCE3520C2A1CC2D500D2C3E5 /* OneSignal in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		7EF76FA92A261160004E0D4E /* WebViewControl */ = {
+			isa = PBXGroup;
+			children = (
+				7EF76FA72A260FB3004E0D4E /* WebControlView.swift */,
+				7EF76FAA2A2612E1004E0D4E /* TapButtonView.swift */,
+			);
+			path = WebViewControl;
+			sourceTree = "<group>";
+		};
+		7EF76FAC2A279E19004E0D4E /* PopupSubscribe */ = {
+			isa = PBXGroup;
+			children = (
+				7EF76FAD2A279E45004E0D4E /* PopupForSubscribeView.swift */,
+			);
+			path = PopupSubscribe;
+			sourceTree = "<group>";
+		};
+		FC36BF242A123D160068A650 /* CreditWebView */ = {
+			isa = PBXGroup;
+			children = (
+				FC36BF292A12415C0068A650 /* CreditCenterWebView.swift */,
+				FCBB710A2A1278F400304921 /* WebViewViewModel.swift */,
+				FCBB710C2A1279B200304921 /* WebViewContainer.swift */,
+			);
+			path = CreditWebView;
+			sourceTree = "<group>";
+		};
+		FC647C932A13865700E96FC2 /* TrackerAggregator */ = {
+			isa = PBXGroup;
+			children = (
+				FC647C942A1386BB00E96FC2 /* TrackerConfigurableProtocol.swift */,
+				FC647C962A13878700E96FC2 /* TrackerAggregatorRule.swift */,
+				FC647C982A1388F500E96FC2 /* Extension+TrackerAggregator.swift */,
+				FC647C9A2A138AF000E96FC2 /* GlobalTracker.swift */,
+			);
+			path = TrackerAggregator;
+			sourceTree = "<group>";
+		};
+		FC647C9C2A138E7800E96FC2 /* CustomUIComponents */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D9202A0E56920085D4BD /* TextFieldsModifier.swift */,
+			);
+			path = CustomUIComponents;
+			sourceTree = "<group>";
+		};
+		FC68CCA02A161B700050DC19 /* NetworkService */ = {
+			isa = PBXGroup;
+			children = (
+				FC68CCA12A161B8F0050DC19 /* NetworkService.swift */,
+			);
+			path = NetworkService;
+			sourceTree = "<group>";
+		};
+		FCE352122A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension */ = {
+			isa = PBXGroup;
+			children = (
+				FCE352132A1CC48300D2C3E5 /* NotificationService.swift */,
+				FCE352152A1CC48300D2C3E5 /* Info.plist */,
+			);
+			path = CreditCenterNotificationServiseExtension;
+			sourceTree = "<group>";
+		};
+		FCE3521D2A1CCE8400D2C3E5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		FCE8D8EE2A0D14D00085D4BD = {
 			isa = PBXGroup;
 			children = (
 				FCE8D8F92A0D14D00085D4BD /* CreditCenter */,
+				FCE352122A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension */,
 				FCE8D8F82A0D14D00085D4BD /* Products */,
+				FCE3521D2A1CCE8400D2C3E5 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -44,6 +209,7 @@
 			isa = PBXGroup;
 			children = (
 				FCE8D8F72A0D14D00085D4BD /* CreditCenter.app */,
+				FCE352112A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -51,9 +217,14 @@
 		FCE8D8F92A0D14D00085D4BD /* CreditCenter */ = {
 			isa = PBXGroup;
 			children = (
+				FC68CCA02A161B700050DC19 /* NetworkService */,
+				FCE8D91F2A0E56760085D4BD /* CommonUI */,
+				FCE8D9082A0D14DF0085D4BD /* Features */,
+				FC647C932A13865700E96FC2 /* TrackerAggregator */,
 				FCE8D8FA2A0D14D00085D4BD /* CreditCenterApp.swift */,
 				FCE8D8FC2A0D14D00085D4BD /* ContentView.swift */,
 				FCE8D8FE2A0D14D30085D4BD /* Assets.xcassets */,
+				FCE8D9172A0D3FF80085D4BD /* Info.plist */,
 				FCE8D9002A0D14D30085D4BD /* Preview Content */,
 			);
 			path = CreditCenter;
@@ -67,9 +238,115 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		FCE8D9082A0D14DF0085D4BD /* Features */ = {
+			isa = PBXGroup;
+			children = (
+				7EF76FAC2A279E19004E0D4E /* PopupSubscribe */,
+				7EF76FA92A261160004E0D4E /* WebViewControl */,
+				FC36BF242A123D160068A650 /* CreditWebView */,
+				FCE8D91B2A0E4A600085D4BD /* AuthFeature */,
+				FCE8D9182A0E3DCD0085D4BD /* LoanFeature */,
+				FCE8D9092A0D14E50085D4BD /* CreditOnboarding */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		FCE8D9092A0D14E50085D4BD /* CreditOnboarding */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D90A2A0D14EF0085D4BD /* Sources */,
+			);
+			path = CreditOnboarding;
+			sourceTree = "<group>";
+		};
+		FCE8D90A2A0D14EF0085D4BD /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D90C2A0D169C0085D4BD /* DescriptionStep.swift */,
+				FCE8D90E2A0D1BCA0085D4BD /* OnboardingViewModel.swift */,
+				FCE8D9102A0D1CF30085D4BD /* OnboardingView.swift */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		FCE8D9182A0E3DCD0085D4BD /* LoanFeature */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D9192A0E3E780085D4BD /* FirstLoanView.swift */,
+				FC647CA12A13AB0100E96FC2 /* NewLoanView.swift */,
+			);
+			path = LoanFeature;
+			sourceTree = "<group>";
+		};
+		FCE8D91B2A0E4A600085D4BD /* AuthFeature */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D9222A0E71C20085D4BD /* Authorization */,
+				FCE8D91C2A0E4AAC0085D4BD /* Authentication */,
+				FC36BF222A12270C0068A650 /* LoadView.swift */,
+				FC68CCA32A16525A0050DC19 /* AuthViewModel.swift */,
+			);
+			path = AuthFeature;
+			sourceTree = "<group>";
+		};
+		FCE8D91C2A0E4AAC0085D4BD /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D91D2A0E4B350085D4BD /* AuthenticationView.swift */,
+			);
+			path = Authentication;
+			sourceTree = "<group>";
+		};
+		FCE8D91F2A0E56760085D4BD /* CommonUI */ = {
+			isa = PBXGroup;
+			children = (
+				FC647C9C2A138E7800E96FC2 /* CustomUIComponents */,
+				FCE8D9272A0E799A0085D4BD /* Extension */,
+			);
+			path = CommonUI;
+			sourceTree = "<group>";
+		};
+		FCE8D9222A0E71C20085D4BD /* Authorization */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D9232A0E71E40085D4BD /* AuthorizationView.swift */,
+			);
+			path = Authorization;
+			sourceTree = "<group>";
+		};
+		FCE8D9272A0E799A0085D4BD /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				FCE8D9122A0D27EE0085D4BD /* Colors+Init.swift */,
+				FCE8D9282A0E79B20085D4BD /* View+init.swift */,
+				FCBB710E2A127B6200304921 /* WebViewContainer+Init.swift */,
+			);
+			path = Extension;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		FCE352102A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FCE352192A1CC48300D2C3E5 /* Build configuration list for PBXNativeTarget "CreditCenterNotificationServiseExtension" */;
+			buildPhases = (
+				FCE3520D2A1CC48300D2C3E5 /* Sources */,
+				FCE3520E2A1CC48300D2C3E5 /* Frameworks */,
+				FCE3520F2A1CC48300D2C3E5 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CreditCenterNotificationServiseExtension;
+			packageProductDependencies = (
+				FCE3521E2A1CCE8400D2C3E5 /* OneSignal */,
+			);
+			productName = CreditCenterNotificationServiseExtension;
+			productReference = FCE352112A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		FCE8D8F62A0D14D00085D4BD /* CreditCenter */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = FCE8D9052A0D14D30085D4BD /* Build configuration list for PBXNativeTarget "CreditCenter" */;
@@ -77,12 +354,19 @@
 				FCE8D8F32A0D14D00085D4BD /* Sources */,
 				FCE8D8F42A0D14D00085D4BD /* Frameworks */,
 				FCE8D8F52A0D14D00085D4BD /* Resources */,
+				FCE3521C2A1CC48300D2C3E5 /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				FCE352172A1CC48300D2C3E5 /* PBXTargetDependency */,
 			);
 			name = CreditCenter;
+			packageProductDependencies = (
+				FCE352082A1CB2B000D2C3E5 /* AppsFlyerLib */,
+				FCE3520B2A1CC2D500D2C3E5 /* OneSignal */,
+				7EF76FB22A27A50B004E0D4E /* PopupView */,
+			);
 			productName = CreditCenter;
 			productReference = FCE8D8F72A0D14D00085D4BD /* CreditCenter.app */;
 			productType = "com.apple.product-type.application";
@@ -97,6 +381,9 @@
 				LastSwiftUpdateCheck = 1430;
 				LastUpgradeCheck = 1430;
 				TargetAttributes = {
+					FCE352102A1CC48300D2C3E5 = {
+						CreatedOnToolsVersion = 14.3;
+					};
 					FCE8D8F62A0D14D00085D4BD = {
 						CreatedOnToolsVersion = 14.3;
 					};
@@ -108,19 +395,36 @@
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
+				ru,
+				"ru-KZ",
+				ro,
+				"vi-VN",
 				Base,
 			);
 			mainGroup = FCE8D8EE2A0D14D00085D4BD;
+			packageReferences = (
+				FCE352072A1CB2B000D2C3E5 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */,
+				FCE3520A2A1CC2D500D2C3E5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */,
+				7EF76FB12A27A50B004E0D4E /* XCRemoteSwiftPackageReference "PopupView" */,
+			);
 			productRefGroup = FCE8D8F82A0D14D00085D4BD /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
 				FCE8D8F62A0D14D00085D4BD /* CreditCenter */,
+				FCE352102A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		FCE3520F2A1CC48300D2C3E5 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCE8D8F52A0D14D00085D4BD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,18 +437,110 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		FCE3520D2A1CC48300D2C3E5 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FCE352142A1CC48300D2C3E5 /* NotificationService.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		FCE8D8F32A0D14D00085D4BD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FC647C992A1388F500E96FC2 /* Extension+TrackerAggregator.swift in Sources */,
+				FC647C952A1386BB00E96FC2 /* TrackerConfigurableProtocol.swift in Sources */,
+				FCBB710D2A1279B200304921 /* WebViewContainer.swift in Sources */,
+				7EF76FAB2A2612E1004E0D4E /* TapButtonView.swift in Sources */,
+				FC36BF232A12270C0068A650 /* LoadView.swift in Sources */,
+				FCE8D9112A0D1CF30085D4BD /* OnboardingView.swift in Sources */,
+				FC647C9B2A138AF000E96FC2 /* GlobalTracker.swift in Sources */,
+				FCE8D9132A0D27EE0085D4BD /* Colors+Init.swift in Sources */,
+				FCE8D90D2A0D169C0085D4BD /* DescriptionStep.swift in Sources */,
+				FCBB710F2A127B6200304921 /* WebViewContainer+Init.swift in Sources */,
+				FC68CCA22A161B8F0050DC19 /* NetworkService.swift in Sources */,
+				FCE8D9292A0E79B20085D4BD /* View+init.swift in Sources */,
 				FCE8D8FD2A0D14D00085D4BD /* ContentView.swift in Sources */,
+				FCBB710B2A1278F400304921 /* WebViewViewModel.swift in Sources */,
+				7EF76FA82A260FB3004E0D4E /* WebControlView.swift in Sources */,
+				FCE8D91A2A0E3E780085D4BD /* FirstLoanView.swift in Sources */,
+				FCE8D9212A0E56920085D4BD /* TextFieldsModifier.swift in Sources */,
 				FCE8D8FB2A0D14D00085D4BD /* CreditCenterApp.swift in Sources */,
+				FCE8D91E2A0E4B360085D4BD /* AuthenticationView.swift in Sources */,
+				FC647C972A13878700E96FC2 /* TrackerAggregatorRule.swift in Sources */,
+				FCE8D9242A0E71E40085D4BD /* AuthorizationView.swift in Sources */,
+				FC68CCA42A16525B0050DC19 /* AuthViewModel.swift in Sources */,
+				FC647CA22A13AB0100E96FC2 /* NewLoanView.swift in Sources */,
+				FCE8D90F2A0D1BCA0085D4BD /* OnboardingViewModel.swift in Sources */,
+				7EF76FAE2A279E45004E0D4E /* PopupForSubscribeView.swift in Sources */,
+				FC36BF2A2A12415C0068A650 /* CreditCenterWebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		FCE352172A1CC48300D2C3E5 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FCE352102A1CC48300D2C3E5 /* CreditCenterNotificationServiseExtension */;
+			targetProxy = FCE352162A1CC48300D2C3E5 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		FCE3521A2A1CC48300D2C3E5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QYQL46W44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreditCenterNotificationServiseExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CreditCenterNotificationServiseExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onsmart.CreditCenter.CreditCenterNotificationServiseExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FCE3521B2A1CC48300D2C3E5 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = 9QYQL46W44;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreditCenterNotificationServiseExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = CreditCenterNotificationServiseExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.onsmart.CreditCenter.CreditCenterNotificationServiseExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		FCE8D9032A0D14D30085D4BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -262,6 +658,7 @@
 		FCE8D9062A0D14D30085D4BD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -270,11 +667,12 @@
 				DEVELOPMENT_TEAM = 9QYQL46W44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreditCenter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -291,6 +689,7 @@
 		FCE8D9072A0D14D30085D4BD /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -299,11 +698,12 @@
 				DEVELOPMENT_TEAM = 9QYQL46W44;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = CreditCenter/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -320,6 +720,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		FCE352192A1CC48300D2C3E5 /* Build configuration list for PBXNativeTarget "CreditCenterNotificationServiseExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FCE3521A2A1CC48300D2C3E5 /* Debug */,
+				FCE3521B2A1CC48300D2C3E5 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		FCE8D8F22A0D14D00085D4BD /* Build configuration list for PBXProject "CreditCenter" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -339,6 +748,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7EF76FB12A27A50B004E0D4E /* XCRemoteSwiftPackageReference "PopupView" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/exyte/PopupView.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		FCE352072A1CB2B000D2C3E5 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/AppsFlyerSDK/AppsFlyerFramework";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 6.11.0;
+			};
+		};
+		FCE3520A2A1CC2D500D2C3E5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/OneSignal/OneSignal-XCFramework";
+			requirement = {
+				kind = upToNextMinorVersion;
+				minimumVersion = 3.12.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7EF76FB22A27A50B004E0D4E /* PopupView */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7EF76FB12A27A50B004E0D4E /* XCRemoteSwiftPackageReference "PopupView" */;
+			productName = PopupView;
+		};
+		FCE352082A1CB2B000D2C3E5 /* AppsFlyerLib */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE352072A1CB2B000D2C3E5 /* XCRemoteSwiftPackageReference "AppsFlyerFramework" */;
+			productName = AppsFlyerLib;
+		};
+		FCE3520B2A1CC2D500D2C3E5 /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE3520A2A1CC2D500D2C3E5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+		FCE3521E2A1CCE8400D2C3E5 /* OneSignal */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = FCE3520A2A1CC2D500D2C3E5 /* XCRemoteSwiftPackageReference "OneSignal-XCFramework" */;
+			productName = OneSignal;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FCE8D8EF2A0D14D00085D4BD /* Project object */;
 }
