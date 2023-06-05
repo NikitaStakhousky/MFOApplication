@@ -2,7 +2,7 @@
 //  EventTrackingRule.swift
 //  CreditCenter
 //
-//  Created by Maksim Chizhavko on 16.05.23.
+//  Created by Stakhousky Nikita on 16.05.23.
 //
 
 import Foundation

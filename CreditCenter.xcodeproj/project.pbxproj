@@ -71,6 +71,7 @@
 		7EF76FA72A260FB3004E0D4E /* WebControlView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebControlView.swift; sourceTree = "<group>"; };
 		7EF76FAA2A2612E1004E0D4E /* TapButtonView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TapButtonView.swift; sourceTree = "<group>"; };
 		7EF76FAD2A279E45004E0D4E /* PopupForSubscribeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PopupForSubscribeView.swift; sourceTree = "<group>"; };
+		7EF76FCA2A28BFE2004E0D4E /* CreditCenter.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CreditCenter.entitlements; sourceTree = "<group>"; };
 		FC36BF222A12270C0068A650 /* LoadView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoadView.swift; sourceTree = "<group>"; };
 		FC36BF292A12415C0068A650 /* CreditCenterWebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreditCenterWebView.swift; sourceTree = "<group>"; };
 		FC647C942A1386BB00E96FC2 /* TrackerConfigurableProtocol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrackerConfigurableProtocol.swift; sourceTree = "<group>"; };
@@ -217,6 +218,7 @@
 		FCE8D8F92A0D14D00085D4BD /* CreditCenter */ = {
 			isa = PBXGroup;
 			children = (
+				7EF76FCA2A28BFE2004E0D4E /* CreditCenter.entitlements */,
 				FC68CCA02A161B700050DC19 /* NetworkService */,
 				FCE8D91F2A0E56760085D4BD /* CommonUI */,
 				FCE8D9082A0D14DF0085D4BD /* Features */,
@@ -661,6 +663,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CreditCenter/CreditCenter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CreditCenter/Preview Content\"";
@@ -692,6 +695,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = CreditCenter/CreditCenter.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"CreditCenter/Preview Content\"";

@@ -2,7 +2,7 @@
 //  NotificationService.swift
 //  CreditCenterNotificationServiseExtension
 //
-//  Created by Maksim Chizhavko on 23.05.23.
+//  Created by Stakhousky Nikita on 23.05.23.
 //
 
 import UserNotifications

@@ -26,7 +26,7 @@ struct CreditCenterWebView: View {
               WebViewContainer(webViewModel: webViewModel)
                   .ignoresSafeArea()
                   .popup(isPresented: $webViewModel.showPopup) {
-                     PopupForSubscribeView()
+                      PopupForSubscribeView(url: URL(string: "https://t.me/rian_ru")!)
                               } customize: {
                                   $0.type(.floater(verticalPadding: CGFloat(-40.0), useSafeAreaInset: true))
                                       .animation(.spring())

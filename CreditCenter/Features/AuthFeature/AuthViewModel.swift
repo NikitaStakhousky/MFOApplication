@@ -2,7 +2,7 @@
 //  AuthViewModel.swift
 //  CreditCenter
 //
-//  Created by Maksim Chizhavko on 18.05.23.
+//  Created by Stakhousky Nikita on 18.05.23.
 //
 
 import Foundation
